@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+
+}
+
+.container{
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 1.2rem;
+}
+header{
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 2rem;
+    align-items: center;
+}
+header>span{
+    width: 20px;
+    font-weight: 600;
+}
+nav{
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+     font-size: 12px;
+     color: black;
+     font-weight: 600;
+}
+.icons-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.search-bar{
+    padding:5px 10px;
+    border-radius: 100px;
+    background-color: rgba(128, 128, 128, 0.159);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+}
+.search-bar input{
+  outline: none;
+  border: none;
+  max-width: 70px;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0);
+}
+
+.icons-container .icon{
+  font-size:1.3rem ;
+}
+#msg{
+    position: relative;
+}
+.msg-count{
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 72, 0);
+    font-size:8px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.hero-section{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    height: 100vh;
+}
+.right-section,.left-section{
+    border-radius: 1rem;
+    width: 50%;
+    display: flex;
+    align-items: stretch;
+}
+
+.right-section{
+    background-image:url(imgs/pexels-chuchuphinh-1329494.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 10px;
+    padding: 1rem;
+
+}
+.left-section{
+    gap: 20px;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    background-color:rgba(130, 126, 126, 0.336);
+     border-radius: 1rem;
+     padding: 2rem;
+}
+.top span{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.top span img{
+  max-width: 200px;
+  width: 100%;
+}
+.top h1{
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+
+.bottom{
+    width: 100%;
+     border-radius: 1rem;
+     display: flex;
+     gap: 20px;
+    flex: 1;
+
+}
+.bottom-img{
+     width: 100%;
+       background-size: cover;
+     border-radius: 1rem;
+     display: flex;
+     align-items: flex-end;
+     justify-content: flex-start;
+     padding: 1rem;
+     color: rgb(255, 255, 255);
+     font-weight: 600;
+     font-size: 1.3rem;
+}
+#left-img{
+    background-image:url(imgs/pexels-olly-3769981.jpg) ;
+    background-position: center;
+
+}
+
+#right-img{
+    background-image:url(imgs/pexels-anastasiya-gepp-654466-1462633.jpg) ;
+    background-position: center;  
+}
+
+.btn-container{
+    border-radius: 100px;
+    display: flex;
+    max-width: 200px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+     border: 2px solid white;
+     padding: 5px 5px 5px 10px ;
+
+}
+
+#left-btn-container{
+     background-color: white;
+  
+}
+
+#right-btn-container{
+     background-color:transparent;
+  border: 2px solid black;
+
+}
+.btn-container button{
+    border: none;
+    padding:5px;
+    padding-left:10px ;
+    background-color: transparent;
+}
+
+.btn-container span{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 12px;
+  
+}
+.btn{
+      font-size: 12px;
+      font-weight: 600;
+}
+
+.learn-span{
+  background-color: black;
+  color: white;
+}
+.contact-span{
+    background-color: black;
+    color: white;
+}
